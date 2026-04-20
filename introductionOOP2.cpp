@@ -36,4 +36,8 @@ int main() {
     nonElektronik.tanggalProduksi = "2 maret 2025";
 
     
-    
+    elektronik.tampilkanInfo();
+    nonElektronik.tampilkanInfo();
+
+  
+}
