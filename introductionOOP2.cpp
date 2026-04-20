@@ -10,4 +10,11 @@ public:
     string kategori;
     string tanggalProduksi;
 
-  
+   
+    void tampilkanInfo() {
+        cout << "Nama Barang      : " << nama << endl;
+        cout << "Jumlah           : " << jumlah << endl;
+        cout << "Kategori         : " << kategori << endl;
+        cout << "Tanggal Produksi : " << tanggalProduksi << endl;
+       
+    }
