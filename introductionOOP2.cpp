@@ -18,3 +18,13 @@ public:
         cout << "Tanggal Produksi : " << tanggalProduksi << endl;
        
     }
+};
+
+int main() {
+   
+    Barang elektronik;
+    elektronik.nama = "Laptop ASUS";
+    elektronik.jumlah = 1;
+    elektronik.kategori = "Elektronik";
+    elektronik.tanggalProduksi = "2 April 2025";
+
