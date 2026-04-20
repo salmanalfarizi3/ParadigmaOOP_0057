@@ -16,7 +16,7 @@ public:
         cout << "Jumlah           : " << jumlah << endl;
         cout << "Kategori         : " << kategori << endl;
         cout << "Tanggal Produksi : " << tanggalProduksi << endl;
-       
+       cout << "________________________" << endl;
     }
 };
 
@@ -28,3 +28,12 @@ int main() {
     elektronik.kategori = "Elektronik";
     elektronik.tanggalProduksi = "2 April 2025";
 
+
+    Barang nonElektronik;
+    nonElektronik.nama = "Meja Belajar";
+    nonElektronik.jumlah = 1;
+    nonElektronik.kategori = "Furnitur";
+    nonElektronik.tanggalProduksi = "2 maret 2025";
+
+    
+    
